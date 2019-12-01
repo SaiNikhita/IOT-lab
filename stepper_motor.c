@@ -14,25 +14,25 @@ while(1) //infinite loop
 	{       
 		if(dir==0) //if dir==0, motor rotates in counter clockwise direction
 		{
-      	motor=0x06;   //for CCW direction "C639"
-			  delay_ms(1);
-	      motor=0x0a;
-			  delay_ms(1);
-	      motor=0x09;
-			  delay_ms(1);
-       	motor=0x05;
-			  delay_ms(1);
+      			motor=0x06;   //for CCW direction "C639"
+			delay_ms(1);
+	      		motor=0x0a;
+			delay_ms(1);
+	      		motor=0x09;
+			delay_ms(1);
+       			motor=0x05;
+			delay_ms(1);
 		}else	
 		if(dir==1) //if dir==1, motor rotates in clockwise direction
 		{
-       	motor=0x05;   //for CW direction "936C"
-			  delay_ms(1);
-	      motor=0x09;
-			  delay_ms(1);
-	      motor=0x0a;
-			  delay_ms(1);
-       	motor=0x06;
-			  delay_ms(1);
+       			motor=0x05;   //for CW direction "936C"
+			delay_ms(1);
+	      		motor=0x09;
+			delay_ms(1);
+	      		motor=0x0a;
+			delay_ms(1);
+       			motor=0x06;
+			delay_ms(1);
 		}	
 	}while(sw==1); //wait till switch is pressed
 	delay_ms(200); //switch debounce delay 200 milli seconds
