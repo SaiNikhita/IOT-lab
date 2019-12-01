@@ -10,10 +10,10 @@ void main(void)
 {
 	while(1) //infinite loop
 	{
-      led=0;            //led off
-		  delay_ms(1000);   //delay 1000 milli seconds
-      led=1;            //led on
-		  delay_ms(1000);   //delay 1000 milli seconds
+      		led=0;            //led off
+		delay_ms(1000);   //delay 1000 milli seconds
+      		led=1;            //led on
+		delay_ms(1000);   //delay 1000 milli seconds
 	}
 }
 
