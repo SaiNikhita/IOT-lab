@@ -15,7 +15,7 @@ void delay_ms(unsigned int );
 
 void main(void)
 {
-	unsigned char count0=0,count1=0,count2=0,count3=0,count4=0,count5=0,count6=0;
+	unsigned char count0=0,count1=0,count2=0,count3=0,count4=0;
 	unsigned bcd_code[]={0x3f,0x06,0x5b,0x4f,0x66,0x6d,0x7d,0x07,0x7f,0x6f};
 
   	//initilise all the port
