@@ -13,8 +13,8 @@ void main(void)
 	{
 		if(sw==0)  //check if key pressed
 		{
-         led=1-led; //toggle led
-			   delay_ms(200); //switch debounce delay 200 milliseconds
+         		led=1-led; //toggle led
+			delay_ms(200); //switch debounce delay 200 milliseconds
 		}
 	}
 }
